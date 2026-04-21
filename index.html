@@ -1,146 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gautam Portfolio</title>
+    <title>Gautam — Software Developer & ML Engineer</title>
     <link rel="stylesheet" href="./assets/professional.css">
 </head>
-
 <body>
-    <header>
-        <div class="container header-content">
-            <h1>Gautam Portfolio</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+
+<header>
+    <div class="container header-content">
+        <h1>Gautam.dev</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section id="about">
+    <div class="container">
+        <div class="about-inner">
+            <div class="about-badge">Software Developer · ML Engineer</div>
+            <h2>Software Developer &amp; <span>ML Engineer</span></h2>
+            <p>I'm a Software Developer with experience building full-stack web apps, 2D games, and machine learning models. From e-commerce platforms to real-time computer vision systems — I design, develop, and ship end-to-end solutions.</p>
+            <div class="about-cta">
+                <a href="#projects" class="btn-primary">View My Work</a>
+                <a href="#contact" class="btn-secondary">Get in Touch</a>
+            </div>
+            <div class="stats-row">
+                <div class="stat-item">
+                    <div class="stat-number">9<span>+</span></div>
+                    <div class="stat-label">Projects Built</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">3<span>+</span></div>
+                    <div class="stat-label">ML Models Deployed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">1<span>k</span></div>
+                    <div class="stat-label">GitHub Contributions</div>
+                </div>
+            </div>
         </div>
-    </header>
+    </div>
+</section>
 
-    <section id="about" class="container">
-        <h2>About Me</h2>
-        <p>
-            I am passionate about programming and dedicated to research and development in the tech industry. I spend my
-            free time exploring innovative ideas and solutions, which fuels my drive for creativity and problem-solving.
-            Thriving in collaborative environments, I am eager to contribute my skills and energy to a forward-thinking
-            team, helping to push the boundaries of software development and technology.
-        </p>
-    </section>
-
-    <section id="projects" class="container">
-        <h2 class="section-title">My Projects</h2>
+<section id="projects">
+    <div class="container">
+        <div class="section-header">
+            <div>
+                <div class="section-label">Portfolio</div>
+                <h2 class="section-title">Selected Projects</h2>
+            </div>
+            <div class="section-count">9 projects</div>
+        </div>
         <div class="project-container">
+
             <div class="project">
-                <img src="./resource/railway/railway-project-image.jpg" alt="Railway Project" class="project-image">
+                <div class="project-image-wrap">
+                    <img src="./resource/railway/railway-project-image.jpg" alt="Railway Project" class="project-image" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                    <div class="project-image-placeholder" style="display:none">🚂</div>
+                    <span class="project-tag">Computer Vision</span>
+                </div>
                 <div class="project-content">
                     <h3>Object Detection for Indian Railways</h3>
-                    <p>
-                        Developed a 2-kilometer object detection system to enhance safety in adverse weather conditions.
-                    </p>
-                    <a href="./pages/Railway-Project.html" class="project-link">View Project</a>
+                    <p>Developed a 2-kilometer object detection system to enhance safety in adverse weather conditions.</p>
+                <a href="./pages/Railway-Project.html" class="project-link">View Project</a>
                 </div>
             </div>
+
             <div class="project">
-                <img src="./resource/ai-glass/ai-glass-image.jpg" alt="Smart AI Glass" class="project-image">
+                <div class="project-image-wrap">
+                    <img src="./resource/ai-glass/parts.png" alt="Smart AI Glass" class="project-image" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                    <div class="project-image-placeholder" style="display:none">👓</div>
+                    <span class="project-tag">Assistive Tech</span>
+                </div>
                 <div class="project-content">
                     <h3>Smart AI Glass for Visually Impaired</h3>
-                    <p>
-                        A smart glass program to assist visually impaired individuals in identifying objects through audio cues.
-                    </p>
-                    <a href="./pages/Smart-AI-Glass.html" class="project-link">View Project</a>
+                    <p>A smart glass system to assist visually impaired individuals in identifying objects through audio cues.</p>
+                <a href="./pages/Smart-AI-Glass.html" class="project-link">View Project</a>
                 </div>
             </div>
+
             <div class="project">
-                <img src="./resource/cmp-market/cmp-market-image.jpg" alt="CMP Market" class="project-image">
+                <div class="project-image-wrap">
+                    <img src="./resource/cmp-market/cmp-home-page.png" alt="CMP Market" class="project-image" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                    <div class="project-image-placeholder" style="display:none">🛒</div>
+                    <span class="project-tag">Full-Stack</span>
+                </div>
                 <div class="project-content">
                     <h3>E-commerce Application</h3>
-                    <p>
-                        Built and sold a full-stack e-commerce application using React, Node.js, and MongoDB.
-                    </p>
-                    <a href="./pages/CMP-Market.html" class="project-link">View Project</a>
+                    <p>Built and sold a full-stack e-commerce application using React, Node.js, and MongoDB.</p>
+                <a href="./pages/CMP-Market.html" class="project-link">View Project</a>
                 </div>
             </div>
+
             <div class="project">
-                <img src="./resource/squash/squash-game-image.jpg" alt="Squash Game" class="project-image">
+                <div class="project-image-wrap">
+                    <img src="./resource/squash/squash_home.png" alt="Squash Game" class="project-image" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                    <div class="project-image-placeholder" style="display:none">🎮</div>
+                    <span class="project-tag">Game Dev</span>
+                </div>
                 <div class="project-content">
-                    <h3>2D Coin Collector Game</h3>
-                    <p>
-                        A 2D game where the player collects coins and overcomes enemies.
-                    </p>
-                    <a href="./pages/Squash-Game.html" class="project-link">View Project</a>
+                    <h3>Squash Game</h3>
+                    <p>A 2D game built in Godot Engine where the player collects coins and overcomes enemies across multiple levels.</p>
+                <a href="./pages/Squash-Game.html" class="project-link">View Project</a>
                 </div>
             </div>
+
             <div class="project">
-                <img src="./resource/image-classification/image-classification-image.jpg" alt="Image Classification" class="project-image">
+                <div class="project-image-wrap">
+                    <img src="./resource/image-classification/image-classification-image.jpg" alt="Image Classification" class="project-image" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                    <div class="project-image-placeholder" style="display:none">🧠</div>
+                    <span class="project-tag">Deep Learning</span>
+                </div>
                 <div class="project-content">
                     <h3>Image Classification Model</h3>
-                    <p>
-                        A CNN-based model to categorize user-uploaded images.
-                    </p>
-                    <a href="./pages/Image-Classification.html" class="project-link">View Project</a>
+                    <p>A CNN-based model to accurately categorize user-uploaded images across multiple classes.</p>
+                <a href="./pages/Image-Classification.html" class="project-link">View Project</a>
                 </div>
             </div>
+
             <div class="project">
-                <img src="./resource/facemask/facemask-detection-image.jpg" alt="Facemask Detection" class="project-image">
+                <div class="project-image-wrap">
+                    <img src="./resource/facemask/facemask-detection-image.jpg" alt="Facemask Detection" class="project-image" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                    <div class="project-image-placeholder" style="display:none">😷</div>
+                    <span class="project-tag">Real-time ML</span>
+                </div>
                 <div class="project-content">
                     <h3>Real-time Facemask Detection</h3>
-                    <p>
-                        A model to detect mask usage in real-time to ensure safety in educational environments.
-                    </p>
-                    <a href="./pages/Facemask-Detection.html" class="project-link">View Project</a>
+                    <p>A model to detect mask usage in real-time to ensure safety in educational environments.</p>
+                <a href="./pages/Facemask-Detection.html" class="project-link">View Project</a>
                 </div>
             </div>
+
             <div class="project">
-                <img src="./resource/mouth-cancer/mouth-cancer-image.jpg" alt="Mouth Cancer Detection" class="project-image">
+                <div class="project-image-wrap">
+                    <img src="./resource/mouth-cancer/mouth-cancer-image.jpg" alt="Mouth Cancer Detection" class="project-image" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                    <div class="project-image-placeholder" style="display:none">🔬</div>
+                    <span class="project-tag">Medical AI</span>
+                </div>
                 <div class="project-content">
                     <h3>Mouth Cancer Detection</h3>
-                    <p>
-                        A machine learning model for early mouth cancer detection.
-                    </p>
-                    <a href="./pages/Mouth-Cancer.html" class="project-link">View Project</a>
+                    <p>A machine learning model for early mouth cancer detection, enabling faster clinical diagnosis.</p>
+                <a href="./pages/Mouth-Cancer.html" class="project-link">View Project</a>
                 </div>
             </div>
+
             <div class="project">
-                <img src="./resource/one-shot/one-shot-game-image.jpg" alt="One Shot Game" class="project-image">
+                <div class="project-image-wrap">
+                    <img src="./resource/one-shot/Screenshot 2025-02-24 152041.png" alt="One Shot Game" class="project-image" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                    <div class="project-image-placeholder" style="display:none">🎯</div>
+                    <span class="project-tag">Game Dev</span>
+                </div>
                 <div class="project-content">
                     <h3>One Shot Bird Knockout Game</h3>
-                    <p>
-                        A 2D game where the player has a single shot to knock out a group of birds.
-                    </p>
-                    <a href="./pages/One_shot.html" class="project-link">View Project</a>
+                    <p>A 2D game where the player has a single shot to knock out a group of birds — precision is everything.</p>
+                <a href="./pages/One_shot.html" class="project-link">View Project</a>
                 </div>
             </div>
+
             <div class="project">
-                <img src="./resource/fighting/fantasy-warrior-image.jpg" alt="Fantasy Warrior" class="project-image">
+                <div class="project-image-wrap">
+                    <img src="./resource/fighting/Screenshot 2025-02-26 095225.png" alt="Fantasy Warrior" class="project-image" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                    <div class="project-image-placeholder" style="display:none">⚔️</div>
+                    <span class="project-tag">Multiplayer</span>
+                </div>
                 <div class="project-content">
                     <h3>Fantasy Warrior</h3>
-                    <p>
-                        A multiplayer game where two users battle using unique characters with distinct powers.
-                    </p>
-                    <a href="./pages/Fantasy-Warrior.html" class="project-link">View Project</a>
+                    <p>A multiplayer game where two users battle using unique characters with distinct powers and abilities.</p>
+                <a href="./pages/Fantasy-Warrior.html" class="project-link">View Project</a>
                 </div>
             </div>
+
         </div>
-    </section>
+    </div>
+</section>
 
-    <section id="contact" class="container">
-        <center>
-            <h2 class="section-title">Contact Me</h2>
-            <p>If you'd like to get in touch, feel free to reach out!</p>
-            <div>
-                <p><strong>Email:</strong> gautamy499@gmail.com</p>
-            </div>
-       </center>
-    </section>
+<section id="contact">
+    <div class="container">
+        <div class="contact-inner">
+            <div class="section-label">Contact</div>
+            <h2>Let's work together</h2>
+            <p>Have a project in mind? I'd love to hear about it. Drop me a message and let's build something amazing.</p>
+            <a href="mailto:gautamy499@gmail.com" class="contact-card">
+                <div class="contact-icon">✉️</div>
+                <div class="contact-info">
+                    <small>Email</small>
+                    <strong>gautamy499@gmail.com</strong>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
 
-    <footer>
-        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
-    </footer>
+<footer>
+    <p>&copy; 2024 <span>Gautam</span>. All rights reserved.</p>
+</footer>
+
 </body>
-
 </html>
