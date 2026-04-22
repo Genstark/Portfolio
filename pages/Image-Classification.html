@@ -1,63 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Classification</title>
+    <title>Image Classification — Gautam</title>
     <link rel="stylesheet" href="../assets/project-page.css">
 </head>
-
 <body>
-    <header>
-        <div class="container header-content">
-            <h1>Image Classification</h1>
-            <nav>
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="#overview">Overview</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+<header>
+    <div class="container header-content">
+        <h1>Gautam.dev</h1>
+        <nav><ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+        </ul></nav>
+    </div>
+</header>
 
+<div class="project-hero">
     <div class="container">
-        <section id="overview" class="project-section">
-            <h2>Project Overview</h2>
-            <div class="project-overview-content">
-                <div class="project-description">
-                    <p>
-                        Developed an image classification model capable of categorizing objects such as fruits, vegetables, humans,
-                        and animals based on user-uploaded images. Using a convolutional neural network (CNN), the model's accuracy
-                        was enhanced through image preprocessing, hyperparameter tuning, and overfitting prevention. A user-friendly
-                        interface was created for real-time uploads and predictions, significantly refining expertise in machine
-                        learning and image processing, especially in CNNs and model optimization.
-                    </p>
+        <a href="../index.html" class="back-link">Back to Portfolio</a>
+        <div class="project-hero-tag">Deep Learning</div>
+        <h2>Image Classification Model</h2>
+        <p class="subtitle">A CNN-based deep learning model that categorizes user-uploaded images with high accuracy across multiple classes.</p>
+    </div>
+</div>
+
+<div class="project-body">
+    <div class="container">
+        <div class="project-grid">
+            <div>
+                <div class="project-section" id="overview">
+                    <div class="section-label">Overview</div>
+                    <h2>Project Overview</h2>
+                    <p>This image classification system leverages a Convolutional Neural Network trained on a diverse dataset to categorize user-uploaded images into predefined classes. The model was optimized for accuracy and inference speed, making it suitable for real-world deployment. It includes a clean interface for uploading images and viewing classification results.</p>
                 </div>
-                <div class="technologies">
+            </div>
+            <div>
+                <div class="tech-card">
                     <h3>Technologies Used</h3>
                     <ul class="tech-list">
                         <li>Python</li>
-                        <li>Tensorflow</li>
+                        <li>TensorFlow</li>
                         <li>Keras</li>
-                        <li>OpenCV</li>
+                        <li>CNN</li>
+                        <li>NumPy</li>
+                        <li>Matplotlib</li>
                     </ul>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <section id="gallery" class="project-section">
-            <h2>Project Gallery</h2>
-            <div class="gallery">
-                <img src="../resource/image-classification/image-classification-image.jpg" alt="Project Screenshot 1">
+        <div id="gallery">
+            <div class="gallery-header">
+                <span class="section-label">Gallery</span>
+                <h2>Project Screenshots</h2>
             </div>
-        </section>
+            <div class="gallery"></div>
+        </div>
     </div>
+</div>
 
-    <footer>
-        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
-    </footer>
+<footer><p>&copy; 2024 <span>Gautam</span>. All rights reserved.</p></footer>
 </body>
-
 </html>

@@ -1,61 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Squash-Game</title>
-    <link rel="stylesheet" href="../assets/project.css">
+    <title>Squash Game — Gautam</title>
+    <link rel="stylesheet" href="../assets/project-page.css">
 </head>
-
 <body>
-    <header>
-        <div class="container header-content">
-            <h1>Squash-Game</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#overview">Overview</a></li>
-                    <li><a href="#technologies">Technologies</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
-                </ul>
-            </nav>
+<header>
+    <div class="container header-content">
+        <h1>Gautam.dev</h1>
+        <nav><ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+        </ul></nav>
+    </div>
+</header>
+
+<div class="project-hero">
+    <div class="container">
+        <a href="../index.html" class="back-link">Back to Portfolio</a>
+        <div class="project-hero-tag">Game Dev</div>
+        <h2>Squash Game</h2>
+        <p class="subtitle">A 2D game built in Godot Engine where the player collects coins and overcomes enemies across multiple levels.</p>
+    </div>
+</div>
+
+<div class="project-body">
+    <div class="container">
+        <div class="project-grid">
+            <div>
+                <div class="project-section" id="overview">
+                    <div class="section-label">Overview</div>
+                    <h2>Project Overview</h2>
+                    <p>Squash Game is a 2D game built using Godot Engine and GDScript. The player navigates through levels, collecting coins while avoiding and defeating enemies. The game features smooth character movement, animated sprites, a scoring system, and multiple levels. Game-over and win screens add a polished feel to the overall experience.</p>
+                </div>
+            </div>
+            <div>
+                <div class="tech-card">
+                    <h3>Technologies Used</h3>
+                    <ul class="tech-list">
+                        <li>Godot Engine</li>
+                        <li>GDScript</li>
+                        <li>Sprite Animation</li>
+                        <li>Collision Detection</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </header>
 
-    <section id="overview" class="container project-section">
-        <h2>Project Overview</h2>
-        <p>
-            Developed a 2D game featuring a character named Steve, whose mission is to collect coins while dodging and
-            overcoming enemies. The project emphasized creating engaging game mechanics, with thoughtfully designed
-            enemy behaviors and coin placements that encourage strategic play. Focused on balancing challenge and
-            enjoyment, enhancing player engagement through intuitive controls, visual feedback, and sound effects,
-            strengthening skills in game design, player interaction, and crafting an immersive, replayable gaming
-            environment.
-        </p>
-    </section>
-
-    <section id="technologies" class="container project-section">
-        <h2>Technologies Used</h2>
-        <ul class="tech-list">
-            <li>Godot Engine</li>
-            <li>GD Script</li>
-        </ul>
-    </section>
-
-    <section id="gallery" class="container project-section">
-        <h2>Project Gallery</h2>
-        <div class="gallery">
-            <img src="../resource/squash/squash_home.png" alt="Project Screenshot 1">
-            <img src="../resource/squash/squash_gameplay.png" alt="Project Screenshot 2">
-            <img src="../resource/squash/squash-gameover.png" alt="Project Screenshot 3">
-            <!-- Add more images as needed -->
+        <div id="gallery">
+            <div class="gallery-header">
+                <span class="section-label">Gallery</span>
+                <h2>Project Screenshots</h2>
+            </div>
+            <div class="gallery">
+                <img src="../resource/squash/squash_home.png" alt="Squash Game Home">
+                <img src="../resource/squash/squash_gameplay.png" alt="Squash Gameplay">
+                <img src="../resource/squash/squash-gameover.png" alt="Squash Game Over">
+            </div>
         </div>
-    </section>
+    </div>
+</div>
 
-    <footer>
-        <!-- <p>&copy; 2024 My Portfolio. All rights reserved.</p> -->
-    </footer>
+<footer><p>&copy; 2024 <span>Gautam</span>. All rights reserved.</p></footer>
 </body>
-
 </html>
